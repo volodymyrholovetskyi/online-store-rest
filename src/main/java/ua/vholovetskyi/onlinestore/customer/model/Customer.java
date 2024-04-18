@@ -23,9 +23,9 @@ import java.util.Objects;
 @Builder
 public class Customer extends BaseEntity {
 
-    private String email;
     private String firstName;
     private String lastName;
+    private String email;
     private String phone;
     private String street;
     private String city;
